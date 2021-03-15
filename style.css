@@ -1,0 +1,57 @@
+body {
+  font-size: 15pt;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#video-demo-container {
+  width: 100%;
+  margin: 40px auto;
+}
+
+#main-video {
+  display: none;
+  width: 100%;
+}
+
+#thumbnail-container {
+  display: none;
+}
+
+#get-thumbnail {
+  display: none;
+}
+
+#get-thumbnail {
+  text-align: center;
+  text-decoration: none;
+  color: lawngreen;
+  font-weight: bolder;
+}
+
+#video-canvas {
+  display: none;
+}
+
+#upload-button {
+  width: 150px;
+  height: 30px;
+  display: block;
+  font-size: 16px;
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+  margin: 20px auto;
+  background: fuchsia;
+  color: white;
+  box-shadow: 5px 5px 4px black;
+
+}
+
+#file-to-upload {
+  display: none;
+}
